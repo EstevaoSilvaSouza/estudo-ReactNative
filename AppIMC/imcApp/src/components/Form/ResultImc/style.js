@@ -22,9 +22,9 @@ const style = StyleSheet.create({
     },
     buttonShare: {
         backgroundColor: '#4267B2',
-        paddingHorizontal: 50,
+        paddingHorizontal: 90,
         borderRadius: 50,
-        height: 25,
+        height: 60,
         justifyContent: 'center'
     },
     btnText: {
