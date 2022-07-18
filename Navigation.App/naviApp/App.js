@@ -13,7 +13,7 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen name='Main' options={{ title: '', headerTitleAlign: 'center' }} component={Main} />
-        <Stack.Screen name='BarCode' options={{ title: 'BarCode Scanner' }} component={BarCode} />
+        <Stack.Screen name='BarCode' options={{ title: 'BarCode Scanner', headerTitleAlign: 'center' }} component={BarCode} />
       </Stack.Navigator>
     </NavigationContainer>
   );
